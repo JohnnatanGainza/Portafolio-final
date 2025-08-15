@@ -1,0 +1,50 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#Hero-Section {
+  background-image: url("../img/Tati.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+  background-position: left;
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Contacto form label {
+  font-weight: 700;
+  color: #2d8eaf;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+}
+
+  .navbar-brand{
+    width: 100px;
+    color: antiquewhite;
+    }
+
+  li {
+      padding-left: 100px;
+      }
+
+.Portafolio {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 5%;
+  padding-left: 13%;
+img {
+  width: 350px;
+  height: 450px;
+}
+}
